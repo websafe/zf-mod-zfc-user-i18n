@@ -6,7 +6,7 @@ nbproject
 .idea
 .project
 .settings
-build
+/build
 bower_components
 node_modules
 public/static/*

@@ -118,6 +118,12 @@ When You're not familiar with editing `.po` files - simply:
  + [report an issue with pl_PL]
 
 
+If You want to add a new language:
+
+ + [report an issue] and I will create a repo for Your language, compatible
+   with existing single-language module repos.
+
+
 
 Compiling .po files to .mo files
 --------------------------------------------------------------------------------

@@ -66,7 +66,7 @@ return array(
 This step is not really required - it depends on how the locale is initialized
 in Your application. 
 
-In `config/global.conf` or `module/Application/config/module.conf.php` add:
+In `config/global.conf` or `module/Application/config/module.config.php` add:
 
 ~~~~ php
     // ...

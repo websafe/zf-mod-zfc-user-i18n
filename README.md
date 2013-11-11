@@ -1,6 +1,8 @@
 WebsafeZfModZfcUserI18n
 ================================================================================
 
+[![Build Status](https://travis-ci.org/websafe/zf-mod-zfc-user-i18n.png?branch=master)](https://travis-ci.org/websafe/zf-mod-zfc-user-i18n)
+
 Multi language pack module for the ZF-Commons/ZfcUser module.
 
 Currently contains following languages/locales/translations:

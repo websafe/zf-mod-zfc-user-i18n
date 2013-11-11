@@ -1,0 +1,55 @@
+{
+    "name": "websafe/zf-mod-zfc-user-i18n",
+    "description": "Translations / language packs module for the ZF-Commons/ZfcUser module. Currently available: de_DE, ja_JP, pl_PL.",
+    "version": "0.0.1-dev",
+    "type": "zf-module",
+    "license": "MIT",
+    "keywords": [
+        "zf2",
+        "module",
+        "translations",
+        "i18n",
+        "language packs",
+        "ZF-Commons",
+        "ZfcUser",
+        "de_DE",
+        "ja_JP",
+        "pl_PL"
+    ],
+    "homepage": "https://github.com/websafe/zf-mod-zfc-user-i18n",
+    "authors": [
+        {
+            "name": "Thomas Szteliga",
+            "email": "ts@websafe.pl",
+            "homepage": "https://websafe.pl/",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "support@websafe.pl",
+        "issues": "https://github.com/websafe/zf-mod-zfc-user-i18n/issues",
+        "source": "https://github.com/websafe/zf-mod-zfc-user-i18n"
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "websafe/zf-mod-zfc-user-i18n-de-de": "dev-master",
+        "websafe/zf-mod-zfc-user-i18n-ja-jp": "dev-master",
+        "websafe/zf-mod-zfc-user-i18n-pl-pl": "dev-master"
+    },
+    "suggest": {
+        "zf-commons/zfc-user": "This module is a set of translations / language packs for [zf-commons/zfc-user], so You probably should install it too."
+    },
+    "autoload": {
+        "psr-0": {
+            "WebsafeZfModZfcUserI18n": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.0.1-dev"
+        }
+    }
+}

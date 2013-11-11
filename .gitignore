@@ -6,9 +6,10 @@ nbproject
 .idea
 .project
 .settings
+build
 bower_components
-/node_modules
-/public/static/*
-/vendor
+node_modules
+public/static/*
+vendor
 composer.lock
 .nfs*

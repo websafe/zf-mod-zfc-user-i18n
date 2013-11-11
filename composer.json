@@ -1,6 +1,6 @@
 {
     "name": "websafe/zf-mod-zfc-user-i18n",
-    "description": "Translations / language packs module for the ZF-Commons/ZfcUser module. Currently available: de_DE, ja_JP, pl_PL.",
+    "description": "Translations / language packs module for the ZF-Commons/ZfcUser module. Currently contains: de_DE, ja_JP, pl_PL.",
     "version": "0.0.1-dev",
     "type": "zf-module",
     "license": "MIT",
@@ -31,7 +31,9 @@
         "source": "https://github.com/websafe/zf-mod-zfc-user-i18n"
     },
     "require": {
-        "php": ">=5.3.3",
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
         "websafe/zf-mod-zfc-user-i18n-de-de": "dev-master",
         "websafe/zf-mod-zfc-user-i18n-ja-jp": "dev-master",
         "websafe/zf-mod-zfc-user-i18n-pl-pl": "dev-master"

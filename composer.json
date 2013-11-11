@@ -1,6 +1,6 @@
 {
     "name": "websafe/zf-mod-zfc-user-i18n",
-    "description": "Multilanguage pack module for the ZF-Commons/ZfcUser module. Currently contains: de_DE, ja_JP, pl_PL translations.",
+    "description": "Multi language pack module for the ZF-Commons/ZfcUser module. Currently contains: de_DE, ja_JP, pl_PL translations.",
     "version": "0.0.1-dev",
     "type": "zf-module",
     "license": "MIT",

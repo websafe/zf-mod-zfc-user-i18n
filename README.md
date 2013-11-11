@@ -1,7 +1,7 @@
 WebsafeZfModZfcUserI18n
 ================================================================================
 
-Multilanguage pack module for the ZF-Commons/ZfcUser module.
+Multi language pack module for the ZF-Commons/ZfcUser module.
 
 Currently contains following languages/locales/translations:
 
@@ -46,7 +46,7 @@ composer require websafe/zf-mod-zfc-user-i18n:dev-master --prefer-dist
 Configuration
 --------------------------------------------------------------------------------
 
-### Enabling the multilanguage pack module in Your ZF2 application
+### Enabling the multi language pack module in Your ZF2 application
 
 In `config/application.conf.php` add `WebsafeZfModZfcUserI18n` after
 `ZfcUser`:

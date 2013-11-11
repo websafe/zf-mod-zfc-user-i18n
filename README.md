@@ -46,7 +46,7 @@ composer require websafe/zf-mod-zfc-user-i18n:dev-master --prefer-dist
 Configuration
 --------------------------------------------------------------------------------
 
-### Enabling the language packs module in Your ZF2 application
+### Enabling the multilanguage pack module in Your ZF2 application
 
 In `config/application.conf.php` add `WebsafeZfModZfcUserI18n` after
 `ZfcUser`:

@@ -1,15 +1,20 @@
 WebsafeZfModZfcUserI18n
 ================================================================================
 
-Translations / language packs module for the [ZF-Commons/ZfcUser] module.
+Multilanguage pack module for the ZF-Commons/ZfcUser module.
 
-Currently available languages/locales:
+Currently contains following languages/locales/translations:
 
  + **[de_DE]**: [report an issue with de_DE] | [edit de_DE.po]
  + **[ja_JP]**: [report an issue with ja_JP] | [edit ja_JP.po]
  + **[pl_PL]**: [report an issue with pl_PL] | [edit pl_PL.po]
 
-Each translation has its own repository (linked above).
+Each translation is located in a separate repository (linked above).
+This module (WebsafeZfModZfcUserI18n) simply collects all `.po` files from
+coresponding single-language repositories during the build process.
+
+For details about the build process see this repositories 
+`composer.json` -> `require-dev` and `scripts/build/build.sh`.
 
 
 * * *
